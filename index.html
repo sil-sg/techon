@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="author" content="Sílvio SG">
+    <meta name="keywords" content="Tech ON, Tech On, techon, tech on, tech ON, Sílvio SG, silviosg, silvio sg, Site de venda de electrônicos, site de venda de electrônicos, site de venda de electronicos, Site de electrônicos, Venda de electrônicos, venda de electronicos, Venda online, venda online, Electrônicos, electronicos, eletronicos, E-commerce, e-commerce, E-commerce de electronicos">
+    <meta name="description" content="Site de venda de electrônicos">
+    
+    <title>Tech ON</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="popup">
+        <p>
+            Aviso!
+        </p>
+        <button>Ok</button>
+    </div>
+
+    <nav>
+        <img src="bt-toggle.png" onclick="f1()" class="bt-toggle">
+        <ul class="ul1">
+            <li>
+                <img src="./home.png" alt="">
+                <a>Home</a></li>
+            <li>
+                <img src="./produts.png" alt="">
+                <a>Produtos</a></li>
+            <li>
+                <img src="./info.png" alt="">
+                <a>Sobre</a></li>
+            <li>
+                <img src="./contact.png" alt="" class="li-last">
+                <a>Contactar</a></li>
+
+        </ul>
+    </nav>
+
+    <main>
+        <section class="container home active">
+            <h1>Tech ON</h1>
+            <div class="container-search">
+                <div class="pesquisar">
+                    <input type="email" placeholder="Perquisar tipo de produto">
+                </div>
+
+                <ul class="list-search">
+                    <li onclick="touchS('#cdm-pro')" class="cdm-pro">Cartão de Memória</li>
+                    <li onclick="touchS('#fsf-pro')" class="fsf-pro">Fone sem fio</li>
+                    <li onclick="touchS('#sgsu-pro')" class="sgsu-pro">Celular Samsung Galaxy S25 Ultra</li>
+                    <li onclick="touchS('#a-pro')" class="a-pro">Auscutador</li>
+                    <li onclick="touchS('#sw-pro')" class="sw-pro">Smart Watch</li>
+                    <li onclick="touchS('#cpxp-pro')" class="cpxp-pro">Celular Poco x7 Pro</li>
+                    <li onclick="touchS('#cpx-pro')" class="cpx-pro">Celular Poco x7</li>
+                    <li onclick="touchS('#temb-pro')" class="temb-pro">Teclado e Mouse Bluetooth</li>
+                    <li onclick="touchS('#adcdm-pro')" class="adcdm-pro">Adaptador de Cartão de Memória</li>
+                    <li onclick="touchS('#cdc-pro')" class="cdc-pro">Carregador de Celular</li>
+                    <li onclick="touchS('#pb-pro')" class="pb-pro">Power Bank</li>
+                    <li onclick="touchS('#kdp-pro')" class="kdp-pro">Kit de Podcast</li>
+                    <li onclick="touchS('#tl-pro')" class="tl-pro">Teclado Led</li>
+                </ul>
+            </div>
+
+            <div class="hero">
+                <h2>Encontre aqui a todos os produtos electrônicos que você precisa</h2>
+                <a href="#destaques">Encontrar</a>
+            </div>
+
+            <div class="carrossel1">
+                <img src="cartao_de_memoria_8gb_ezashy.jpg" alt="foto de produto">
+                <img src="smart_watch.jpg" alt="foto de produto">
+                <img src="fone_sem_fio.jpg" alt="foto de produto">
+                <img src="celular_samsung_galaxy_s25_ultra.jpg" alt="foto de produto">
+            </div>
+            <div>
+                <h2>Promoções de Lançamento!</h2>
+                <p>Compre os melhores eletrônicos com descontos incríveis.</p>
+            </div>
+            
+            <div class="destaques" id="destaques">
+                <div class="container-produto" style="
+                animation: Card 6s cubic-bezier(0.95, 0.05, 0.795, 0.035) infinite;
+                ">
+                    <img src="celular_samsung_galaxy_s25_ultra.jpg">
+                    <h3>Samsung Galaxy S25 Ultra</h3>
+                    <h4>1400000kz</h4>
+                </div>
+                <div class="container-produto" style="
+                animation: Card2 6s cubic-bezier(0.95, 0.05, 0.795, 0.035) infinite;
+                ">
+                    <img src="adaptador_de_cartão_de_memória.jpg.jpg">
+                    <h3>Adaptador de Cartão de Memória</h3>
+                    <h4>2500kz</h4>
+                </div>
+                <div class="container-produto" style="
+                animation: Card3 6s cubic-bezier(0.95, 0.05, 0.795, 0.035) infinite;
+                ">
+                    <img src="teclado_led.jpg">
+                    <h3>Teclado Led</h3>
+                    <h4>9000kz</h4>
+                </div>
+            </div>
+        </section>
+        <footer>
+            &copy; 2025 Sílvio SG · Todos os direitos reservados</footer>
+    </main>
+
+    <section class="container produtos">
+        <h2>Todos os produtos</h2>
+        <div class="cont">
+            <div id="sw-pro" class="container-produto">
+                <img src="smart_watch.jpg" alt="smart watch">
+                <h3>Smart Watch</h3>
+                <p>
+                    Relógio inteligente com pulseiras intercambiáveis (preta, branca, cinza e laranja).
+                </p>
+                <h4>10000kz</h4>
+                <button class="d" onclick="popup('Recursos: Monitor de batimentos cardíacos, Contador de passos, Notificações do celular, Alarme e cronômetro. Compatibilidade: Android e iOS. Bateria: Dura até 7 dias. Ideal para: Atividades físicas, uso diário e produtividade', 'Fechar')">Mais detalhes</button>
+                <button onclick="window.open('https://wa.me/244943318124?text=Olá, como vai?, quero comprar um smart-watch', '_blank')">Comprar</button>
+            </div>
+            <div id="sgsu-pro" class="container-produto">
+                <img src="celular_samsung_galaxy_s25_ultra.jpg" alt="celular samsung galaxy s25 ultra">
+                <h3>Samsung Galaxy S25 Ultra</h3>
+                <p>
+                    Smartphone premium com alto desempenho e câmeras avançadas.
+                </p>
+                <h4>1400000kz</h4>
+                <button class="d" onclick="popup('Recursos: Tela AMOLED 6.8“ 120Hz, Câmera quádrupla de até 200MP, 12GB RAM / 512GB ROM, Suporte a 5G. Bateria: 5000mAh com carregamento rápido. Ideal para: Fotografia, jogos, multitarefa, uso profissional', 'Fechar')">Mais detalhes</button>
+                <button onclick="window.open('https://wa.me/244943318124?text=Olá, como vai?, quero comprar um celular Samsung Galaxy S25 Ultra', '_blank')">Comprar</button>
+            </div>
+            <div id="cpxp-pro" class="container-produto">
+                <img src="celular_poco_x7_pro.jpg" alt="celular poco x7 pro">
+                <h3>Poco X7 Pro</h3>
+                <p>
+                    Smartphone potente com foco em desempenho e custo-benefício.
+                </p>
+                <h4>1350000kz</h4>
+                <button class="d" onclick="popup('Recursos: Tela AMOLED 6.67“, Snapdragon série 8, 8GB RAM / 256GB ROM, Câmeras versáteis e boa autonomia. Ideal para: Jogos, redes sociais, produtividade', 'Fechar')">Mais detalhes</button>
+                <button onclick="window.open('https://wa.me/244943318124?text=Olá, como vai?, quero comprar um celular Poco X7 Pro', '_blank')">Comprar</button>
+            </div>
+            <div id="cpx-pro" class="container-produto">
+                <img src="celular_poco_x7.jpg" alt="celular poco x7">
+                <h3>Poco X7</h3>
+                <p>
+                    Smartphone premium com alto desempenho e câmeras avançadas.
+                </p>
+                <h4>1250000kz</h4>
+                <button class="d" onclick="popup('Recursos: Tela FHD+ com boa fluidez', 'Fechar')">Mais detalhes</button>
+                <button onclick="window.open('https://wa.me/244943318124?text=Olá, como vai?, quero comprar um celular Poco X7', '_blank')">Comprar</button>
+            </div>
+            <div id="temb-pro" class="container-produto">
+                <img src="teclado_e_mouse_bluetooth_sem_fio.jpg" alt="teclado e mouse bluetooth sem fio">
+                <h3>Teclado e Mouse Bluetooth</h3>
+                <p>
+                    Combo elegante sem fio, ideal para quem busca praticidade e um setup limpo.
+                </p>
+                <h4>12500kz</h4>
+                <button class="d" onclick="popup('Características: Conexão Bluetooth 5.0, Compatível com Android, Windows e iOS, Design ergonômico e silencioso. Vantagens: Mobilidade total sem fios, Fácil de transportar, Bateria de longa duração. Sugestão de uso: Perfeito para estudantes, programadores e escritórios.', 'Fechar')">Mais detalhes</button>
+                <button onclick="window.open('https://wa.me/244943318124?text=Olá, como vai?, quero comprar um Teclado e Mouse Bluetooth', '_blank')">Comprar</button>
+            </div>
+            <div id="adcdm-pro" class="container-produto">
+                <img src="adaptador_de_cartão_de_memória.jpg.jpg" alt="adaptador de cartão de memória">
+                <h3>Adaptador de Cartão de Memória</h3>
+                <p>
+                    Leitor universal para cartões SD e microSD com alta velocidade de transferência.
+                </p>
+                <h4>2500kz</h4>
+                <button class="d" onclick="popup('Características: USB 3.0 (até 5Gbps), Compatível com cartões SD, microSD e TF  , Plug & Play (sem drivers). Vantagens: Compacto e portátil, Ideal para backup rápido de fotos e vídeos  ', 'Fechar')">Mais detalhes</button>
+                <button onclick="window.open('https://wa.me/244943318124?text=Olá, como vai?, quero comprar um Adaptador de Cartão de Memória', '_blank')">Comprar</button>
+            </div>
+            <div id="cdc-pro" class="container-produto">
+                <img src="carregador_de_celular.jpg" alt="carregador de celular">
+                <h3>Carregador de Celular</h3>
+                <p>
+                    Carregador rápido com cabo USB original tipo iPhone.
+                </p>
+                <h4>5000kz</h4>
+                <button class="d" onclick="popup('Características: 5V/2A  , Cabo resistente, Compatível com modelos Apple. Vantagens: Carregamento rápido e seguro', 'Fechar')">Mais detalhes</button>
+                <button onclick="window.open('https://wa.me/244943318124?text=Olá, como vai?, quero comprar um Carregador de Celular', '_blank')">Comprar</button>
+            </div>
+            <div id="a-pro" class="container-produto">
+                <img src="auscutadores.jpg" alt="auscutadores">
+                <h3>Auscutador Bluetooth</h3>
+                <p>
+                    Headphone sem fio com som potente e cancelamento de ruído.
+                </p>
+                <h4>7500kz</h4>
+                <button class="d" onclick="popup(
+                'Características: Bluetooth 5.0, Cancelamento de ruído passivo, Bateria até 10h. Vantagens: Confortável para uso prolongado, Ideal para música e chamadas. Sugestão de uso: Para estudantes, gamers ou quem ama ouvir música com qualidade', 'Fechar')">Mais detalhes</button>
+                <button onclick="window.open('https://wa.me/244943318124?text=Olá, como vai?, quero comprar um auscutador', '_blank')">Comprar</button>
+            </div>
+            <div id="cdm-pro" class="container-produto">
+                <img src="cartao_de_memoria_8gb_ezashy.jpg" alt="cartão de memória">
+                <h3>Cartão de Memória</h3>
+                <p>
+                    Cartão MicroSD Classe 10 ideal para armazenamento rápido e confiável de fotos, vídeos e apps.
+                </p>
+                <h4>5000kz</h4>
+                <button class="d" onclick="popup('Capacidade: 8GB. Velocidade: Leitura rápida para uso em smartphones, câmeras e outros dispositivos. Vantagens: Compacto, resistente à água e choques. Compatibilidade: Android, câmeras digitais, tablets.', 'Fechar')">Mais detalhes</button>
+                <button onclick="window.open('https://wa.me/244943318124?text=Olá, como vai?, quero comprar um cartão de memória de 8GB da marca EZASHY', '_blank')">Comprar</button>
+            </div>
+            <div id="fsf-pro" class="container-produto">
+                <img src="fone_sem_fio.jpg" alt="fone sem fio">
+                <h3>Fone sem Fio(Bluetooth)</h3>
+                <p>
+                    Fones estéreo com estojo carregador e visor digital de bateria.
+                </p>
+                <h4>4500kz</h4>
+                <button class="d" onclick="popup('Conectividade: Bluetooth 5.0. Funções: Toque para atender chamadas, mudar música, controle de voz. Bateria: Estojo com carga extra. Vantagens: Leves, confortáveis, ideais para treinos ou viagens.', 'Fechar')">Mais detalhes</button>
+                <button onclick="window.open('https://wa.me/244943318124?text=Olá, como vai?, quero comprar um fone sem fio', '_blank')">Comprar</button>
+            </div>
+            <div id="pb-pro" class="container-produto">
+                <img src="power_bank.jpg" alt="power bank">
+                <h3>Power Bank</h3>
+                <p>
+                    Carregador portátil com múltiplas portas USB para carregar até 4 dispositivos ao mesmo tempo.
+                </p>
+                <h4>5000kz</h4>
+                <button class="d" onclick="popup('Características: Capacidade ideal para 2 a 3 cargas completas, Compatível com Android e iOS, Entrada Micro USB / USB-C. Vantagens: Leve, prático, ótimo para viagens ou uso diário sem depender de tomadas.', 'Fechar')">Mais detalhes</button>
+                <button onclick="window.open('https://wa.me/244943318124?text=Olá, como vai?, quero comprar um Power Bank', '_blank')">Comprar</button>
+            </div>
+            <div id="kdp-pro" class="container-produto">
+                <img src="kit_de_podcast.jpg" alt="kit de podcast">
+                <h3>Kit de Podcast</h3>
+                <p>
+                    Equipamento completo para gravações de áudio com qualidade de estúdio.
+                </p>
+                <h4>20000kz</h4>
+                <button class="d" onclick="popup('Inclui: Placa de som, microfone condensador, suporte, filtros e cabos. Ideal para: Podcasters, músicos, criadores de conteúdo. Conectividade: Compatível com PC, laptop e alguns celulares via adaptador.', 'Fechar')">Mais detalhes</button>
+                <button onclick="window.open('https://wa.me/244943318124?text=Olá, como vai?, quero comprar um Kit de Podcast', '_blank')">Comprar</button>
+            </div>
+            <div id="tl-pro" class="container-produto">
+                <img src="teclado_led.jpg" alt="teclado led">
+                <h3>Teclado Led</h3>
+                <p>
+                    Teclado mecânico com retroiluminação RGB para gamers e produtividade.
+                </p>
+                <h4>9000kz</h4>
+                <button class="d" onclick="popup('Características: Iluminação LED personalizável, Conexão USB, Alta durabilidade e resposta rápida. Vantagens: Design atrativo, ideal para jogos noturnos e digitação confortável.', 'Fechar')">Mais detalhes</button>
+                <button onclick="window.open('https://wa.me/244943318124?text=Olá, como vai?, quero comprar um Teclado Led', '_blank')">Comprar</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="container info">
+        <h2>Sobre nós</h2>
+
+        <h3>Bem-vindo à Tech ON, o seu destino confiável para produtos eletrônicos de qualidade!</h3>
+        <h3>Somos uma loja online dedicada a oferecer os melhores dispositivos com preços acessíveis, atendimento rápido e suporte personalizado.</h3>
+        <h3>Trabalhamos para tornar a tecnologia acessível a todos, com um catálogo em constante atualização e entrega para todo o país.</h3>
+        <h3>Confie na nossa experiência para equipar sua casa, escritório ou vida com inovação!</h3>
+    </section>
+
+    <section class="container contact">
+        <h2>Contactos</h2>
+        <div onclick="window.open('tel:244987654321', '_blank')">
+            <img src="ligar.png">
+            <h4>Ligar</h4>
+        </div>
+
+        <div onclick="window.open('tel:244987654321', '_blank')">
+            <img src="ligar.png">
+            <h4>Ligar</h4>
+        </div>
+
+        <div onclick="window.open('https://wa.me/244943318124', '_blank')">
+            <img src="whats.png">
+            <h4>Whatsapp</h4>
+        </div>
+
+        <div onclick="window.open('https://www.facebook.com', '_blank')">
+            <img src="face.png">
+            <h4>Facebook</h4>
+        </div>
+
+        <div onclick="window.open('https://www.instagram.com', '_blank')">
+            <img src="inst.png">
+            <h4>Instagram</h4>
+        </div>
+
+        <h3 style="margin-top: 10px;">Estamos localizados em Luanda/Gamek</h3>
+    </section>
+
+    <span></span>
+    <script src="script.js"></script>
+</body>
+
+</html>
